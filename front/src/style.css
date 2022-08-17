@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+
+body {
+  color: white;
+  font-family: "Rubik";
+}
+
+tr {
+  vertical-align: middle;
+  height: 100%;
+}
+td {
+  text-align: right;
+}
+.mainContainer {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+    to left bottom,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+}
+
+.mainTable {
+  width: 100%;
+  table-layout: fixed;
+  padding: 3rem;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #464040de;
+}
+
+.lanForLecturer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+}
+
+.oneLanForLecturer {
+  margin: 5px;
+}
+
+.tbHeader td {
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+}
