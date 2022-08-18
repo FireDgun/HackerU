@@ -25,8 +25,9 @@ function App() {
   }, []);
 
 
-
-  const filterDataByLan = (lan) => {
+//I filtered at the frontend, I could do it in the backend but I chose to write it here because of the simplicity of things
+  
+  const filterDataByLan = (lan) => { 
     setfilteredLecturers([]);
     Lecturers.map((lecturer) => {
       const filteredArray = lecturer.languages.filter((value) =>
